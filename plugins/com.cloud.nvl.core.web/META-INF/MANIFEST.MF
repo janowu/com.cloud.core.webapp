@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: com.cloud.nvl.core.web
+Bundle-SymbolicName: com.cloud.nvl.core.web
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.cloud.nvl.web
+Import-Package: javax.servlet,
+ javax.servlet.http;version="3.0.0"
+Web-ContextPath: /
+Bundle-ClassPath: WEB-INF/classes/
