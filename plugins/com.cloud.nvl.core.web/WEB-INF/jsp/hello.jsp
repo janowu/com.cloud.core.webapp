@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-Hello BOH.
+Hello BOH. ${date}
 </body>
 </html>

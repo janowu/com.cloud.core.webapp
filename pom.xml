@@ -34,12 +34,7 @@
 		<repository>
 			<id>sprig-bundle</id>
 			<layout>p2</layout>
-			<url>${p2repo-url}/spring/org/springframework/current</url>
-		</repository>
-		<repository>
-			<id>sprigdm-bundle</id>
-			<layout>p2</layout>
-			<url>${p2repo-url}/springdm/org/springframework/osgi/current</url>
+			<url>${p2repo-url}/orbit-binaries/current</url>
 		</repository>
 		<repository>
 			<id>gemini-bundle</id>
