@@ -9,6 +9,10 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>plugins/com.cloud.nvl.core.web</module>
+		<module>plugins/com.cloud.nvl.core.service</module>
+		<module>plugins/com.cloud.nvl.core.database</module>
+		<module>plugins/com.cloud.nvl.core.persistence</module>
+		<module>plugins/com.cloud.nvl.core.service.interface</module>
 		<module>features/com.cloud.nvl.core.feature</module>
 		<module>features/com.cloud.nvl.core.feature.source</module>
 		<module>repository</module>

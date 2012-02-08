@@ -18,5 +18,8 @@
    </license>
 
    <plugin id="com.cloud.nvl.core.web.source" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
-
+   <plugin id="com.cloud.nvl.core.database.source" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
+   <plugin id="com.cloud.nvl.core.service.source" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
+   <plugin id="com.cloud.nvl.core.persistence.source" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
+   <plugin id="com.cloud.nvl.core.service.interface.source" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
 </feature>

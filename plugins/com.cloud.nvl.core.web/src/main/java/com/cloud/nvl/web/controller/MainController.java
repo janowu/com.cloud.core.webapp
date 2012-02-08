@@ -3,11 +3,17 @@
  */
 package com.cloud.nvl.web.controller;
 
-import java.util.Date;
+import javax.annotation.Resource;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+import com.cloud.nvl.core.service.inter.IOperateService;
+
+import org.osgi.framework.BundleContext;
+import org.osgi.framework.FrameworkUtil;
+import org.osgi.framework.ServiceReference;
 
 /**
  * @author Murphy
@@ -16,9 +22,19 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class MainController {
 
+//	@Autowired
+//	private IOperateService operateService;
+
 	@RequestMapping("/hello")
 	public ModelAndView hello() {
-		return new ModelAndView("hello", "date", new Date());
+		BundleContext context = FrameworkUtil.getBundle(this.getClass())
+				.getBundleContext();
+		ServiceReference<?> serviceReference = context
+				.getServiceReference(IOperateService.class.getName());
+		IOperateService operateService = (IOperateService) context
+				.getService(serviceReference);
+		String str = operateService.getDate();
+		return new ModelAndView("hello", "date", str);
 	}
 
 }
