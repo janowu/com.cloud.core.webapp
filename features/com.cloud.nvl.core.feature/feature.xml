@@ -22,6 +22,7 @@
 </requires>
 	<plugin id="com.cloud.nvl.core.web" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
 	<plugin id="com.cloud.nvl.core.database" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
+	<plugin id="com.cloud.nvl.core.resource" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
 	<plugin id="com.cloud.nvl.core.service" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
 	<plugin id="com.cloud.nvl.core.persistence" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
 	<plugin id="com.cloud.nvl.core.service.interface" download-size="0" install-size="0" version="0.0.0" unpack="false"/>	

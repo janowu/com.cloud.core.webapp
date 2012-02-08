@@ -5,4 +5,6 @@
 		http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd"
 	xmlns:osgi="http://www.springframework.org/schema/osgi">
 
+	<!-- import the DataSource from OSGi -->
+	<osgi:reference id="dataSource" interface="javax.sql.DataSource" />
 </beans>
