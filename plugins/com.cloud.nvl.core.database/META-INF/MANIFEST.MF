@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Database
+Bundle-Name: Resource
 Bundle-SymbolicName: com.cloud.nvl.core.database
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: CLOUD
